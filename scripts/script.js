@@ -27,7 +27,7 @@ function select(){
     }
 
     document.getElementById("write-text").value = "";
-    document.querySelector("#oggy").style.display="span";
+    document.querySelector("#oggy").style.display="inline-block";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("7:30am");
