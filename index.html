@@ -158,7 +158,7 @@
 						<a href="#">Mute notifications</a>
 						<a href="#">Disappearing messages</a>
 						<a href="#">Clear messages</a>
-						<a href="#">Delete chat</a>
+						<a href="#" id="full-clear" onclick="clearAll()">Delete chat</a>
 						<a href="#">Report</a>
 						<a href="#">Block</a>
 					</div>
@@ -177,7 +177,7 @@
 					<div class="chat-messages">
 						<div class="chat-message-container">
 							<div class="chat-message chat-message-first">
-								<div class="chat-message-sender">Oggy</div>
+								<div class="chat-message-sender">Bob</div>
 								Hey there, how are you doing?
 								<span class="chat-message-time">7:22 am</span>
 							</div>
@@ -200,7 +200,7 @@
 					</div>
 				</div>
 				<!-- Message group 2 -->
-				<div class="chat-message-group">
+				<div class="chat-message-group" id="chat-message-group1">
 					<img src="https://picsum.photos/id/102/50" alt="" class="chat-message-avatar">
 					<div class="chat-messages">
 						<div class="chat-message-container">
@@ -226,8 +226,8 @@
 
 				<!-- input -text -->
 
-				<div class="chat-message-group" id="written">
-					<img src="images/channels4_profile.jpg" alt="" class="chat-message-avatar">
+				<div class="chat-message-group2" id="written">
+					<img src="images/channels4_profile.jpg" alt=""  id="oggy" class="chat-message-avatar">
 
 					<!-- <div class="chat-messages"> -->
 						
