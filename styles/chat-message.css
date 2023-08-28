@@ -91,7 +91,8 @@
 }
 
 .chat-message-avatar {
-  height: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
